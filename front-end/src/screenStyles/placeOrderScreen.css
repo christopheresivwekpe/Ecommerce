@@ -1,0 +1,65 @@
+.placeorder {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+  margin: auto;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.placeorder-info {
+  flex: 2 1 47rem;
+}
+.card-info {
+  padding: 1rem;
+  border: 0.1rem solid silver;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card-info p div {
+  margin-bottom: 0.5rem;
+}
+.placeorder-action {
+  flex: 1 1 23rem;
+  margin: 1rem;
+}
+.placeorder-action-div {
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  background-color: #fcfcfc;
+  padding: 1rem;
+}
+.placeorder-action-div ul {
+  margin-bottom: 0.5rem;
+}
+.placeorder-action-div ul li {
+  margin-top: 1rem;
+}
+.placeorder-info > div {
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  background-color: #fcfcfc;
+  padding: 1rem;
+  margin: 1rem;
+}
+.placeorder-info > div:first-child {
+  margin-top: 0;
+}
+.placeorder-action > ul {
+  padding: 0;
+  list-style-type: none;
+}
+.placeorder-action > ul > li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.placeorder-action > ul > li:last-child {
+  font-size: 2rem;
+  color: #c04000;
+  font-weight: bold;
+}
+.order-items {
+  margin-bottom: 0.5rem;
+}
